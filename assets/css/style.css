@@ -1,0 +1,6 @@
+.fill {
+    width: 10%;  
+    background-color: blue;
+    filter: invert(100%);
+  
+}
