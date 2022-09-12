@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Balinese:wght@400;700&display=swap%27");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&display=swap%27");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Noto", "sans-serif";
 }
 
 #mother {
@@ -13,14 +16,19 @@
 }
 #mother article {
   background-color: gray;
+  max-width: 300px;
+  max-height: 300px;
 }
 #mother article h2, #mother article p {
   margin: 1em 0 0.5em 1em;
+}
+#mother article h2 {
+  font-family: "Rubik", "sans-serif";
 }
 #mother article .container {
   display: flex;
   justify-content: center;
 }
 #mother article .container img {
-  width: 50%;
+  width: 30%;
 }/*# sourceMappingURL=mainstyle.css.map */
