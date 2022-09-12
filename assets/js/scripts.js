@@ -5,7 +5,7 @@ const getData = () => {
     const endPoint = "https://api.mediehuset.net/sdg/goals";
 
     fetch(endPoint)
-    .then((response) =>{
+    .then((response) => {
 
         return response.json();
 
