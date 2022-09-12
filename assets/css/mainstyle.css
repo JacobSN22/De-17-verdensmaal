@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#mother {
+  max-width: 80vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1em;
+}
+#mother article {
+  background-color: gray;
+}
+#mother article h2, #mother article p {
+  margin: 1em 0 0.5em 1em;
+}
+#mother article .container {
+  display: flex;
+  justify-content: center;
+}
+#mother article .container img {
+  width: 50%;
+}/*# sourceMappingURL=mainstyle.css.map */

@@ -32,9 +32,11 @@ const {title, byline, id, icon} = card
 console.log("card", card);
 
 document.getElementById('mother').innerHTML += `
-<p>${id + ' ' + title}</p>
-${byline}
-<img class="fill" src='data:image/svg+xml; utf8,${icon}'  alt="icon" >
+<article>
+<h2>${id + ' ' + title}</h2>
+<p>${byline}</p>
+<div class="container"><img src='data:image/svg+xml; utf8,${icon}'  alt="icon" ></div>
+</article>
 `;
 };
 
