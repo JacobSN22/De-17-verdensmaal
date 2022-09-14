@@ -1,3 +1,5 @@
+@import "colors";
+
 * {
     margin: 0;
     padding: 0;
@@ -12,13 +14,70 @@
     max-width: 80vw;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr,));
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr,));
     gap: 1em;
 
+    a:nth-child(1) {
+        background-color: $red;
+    }
+    a:nth-child(2) {
+        background-color: $mustard;
+    }
+    a:nth-child(3) {
+        background-color: $kellyGreen;
+    }
+    a:nth-child(4) {
+        background-color: $darkRed;
+    }
+    a:nth-child(5) {
+        background-color: $redOrange;
+    }
+    a:nth-child(6) {
+        background-color: $brightBlue;
+    }
+    a:nth-child(7) {
+        background-color: $yellow;
+    }
+    a:nth-child(8) {
+        background-color: $burgundyRed;
+    }
+    a:nth-child(9) {
+        background-color: $orange;
+    }
+    a:nth-child(10) {
+        background-color: $magenta;
+    }
+    a:nth-child(11) {
+        background-color: $goldenYellow;
+    }
+    a:nth-child(12) {
+        background-color: $darkMustard;
+    }
+    a:nth-child(13) {
+        background-color: $darkGreen;
+    }
+    a:nth-child(14) {
+        background-color: $blue;
+    }
+    a:nth-child(15) {
+        background-color: $limeGreen;
+    }
+    a:nth-child(16) {
+        background-color: $indigo;
+    }
+    a:nth-child(17) {
+        background-color: $navyBlue;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
     article{
-        background-color: gray;
-        max-width: 300px;
-        max-height: 300px;
+        position: relative;
+        min-width: 300px;
+        min-height: 300px;
         
 
         h2, p {
@@ -34,7 +93,9 @@
             justify-content: center; 
 
             img {
-                width: 30%;
+                position: absolute;
+                width: 40%;
+                bottom: 50;
             }
         }
     }

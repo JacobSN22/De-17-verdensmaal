@@ -11,13 +11,68 @@
   max-width: 80vw;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   gap: 1em;
 }
+#mother a:nth-child(1) {
+  background-color: #E5243B;
+}
+#mother a:nth-child(2) {
+  background-color: #DDA63A;
+}
+#mother a:nth-child(3) {
+  background-color: #4C9F38;
+}
+#mother a:nth-child(4) {
+  background-color: #C5192D;
+}
+#mother a:nth-child(5) {
+  background-color: #FF3A21;
+}
+#mother a:nth-child(6) {
+  background-color: #26BDE2;
+}
+#mother a:nth-child(7) {
+  background-color: #FCC30B;
+}
+#mother a:nth-child(8) {
+  background-color: #A21942;
+}
+#mother a:nth-child(9) {
+  background-color: #FD6925;
+}
+#mother a:nth-child(10) {
+  background-color: #DD1367;
+}
+#mother a:nth-child(11) {
+  background-color: #FD9D24;
+}
+#mother a:nth-child(12) {
+  background-color: #BF8B2E;
+}
+#mother a:nth-child(13) {
+  background-color: #3F7E44;
+}
+#mother a:nth-child(14) {
+  background-color: #0A97D9;
+}
+#mother a:nth-child(15) {
+  background-color: #56C02B;
+}
+#mother a:nth-child(16) {
+  background-color: #00689D;
+}
+#mother a:nth-child(17) {
+  background-color: #19486A;
+}
+#mother a {
+  color: white;
+  text-decoration: none;
+}
 #mother article {
-  background-color: gray;
-  max-width: 300px;
-  max-height: 300px;
+  position: relative;
+  min-width: 300px;
+  min-height: 300px;
 }
 #mother article h2, #mother article p {
   margin: 1em 0 0.5em 1em;
@@ -30,5 +85,7 @@
   justify-content: center;
 }
 #mother article .container img {
-  width: 30%;
+  position: absolute;
+  width: 40%;
+  bottom: 50;
 }/*# sourceMappingURL=mainstyle.css.map */
