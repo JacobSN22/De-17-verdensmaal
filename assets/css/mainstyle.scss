@@ -1,104 +1,69 @@
-@import "colors";
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Noto", "sans-serif"
-}
-
+@use "colors" as c;
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Balinese:wght@400;700&display=swap%27');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&display=swap%27');
 
-#mother {
-    max-width: 80vw;
-    margin: auto;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto', sans-serif;
+}
+
+button {
+    position: fixed;
+    top: 10;
+    left: 10;
+}
+
+.art-main{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr,));
+    justify-content: center;
+    margin-right: 3em;
+    font-family: 'Rubik', sans-serif;
+    h2{
+        font-size: 3vw;
+    }
+    h3{
+        font-size: 1.3vw;
+    }
+    p{
+        margin-bottom: 2em;
+    }
+    img{
+        width: 100%;
+    }
+    figcaption{
+        margin-top: 2em;
+    }
+}
+
+
+#mother{
+    max-width: 80vw;
+    margin: 1em auto 1em auto;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1em;
-
-    a:nth-child(1) {
-        background-color: $red;
-    }
-    a:nth-child(2) {
-        background-color: $mustard;
-    }
-    a:nth-child(3) {
-        background-color: $kellyGreen;
-    }
-    a:nth-child(4) {
-        background-color: $darkRed;
-    }
-    a:nth-child(5) {
-        background-color: $redOrange;
-    }
-    a:nth-child(6) {
-        background-color: $brightBlue;
-    }
-    a:nth-child(7) {
-        background-color: $yellow;
-    }
-    a:nth-child(8) {
-        background-color: $burgundyRed;
-    }
-    a:nth-child(9) {
-        background-color: $orange;
-    }
-    a:nth-child(10) {
-        background-color: $magenta;
-    }
-    a:nth-child(11) {
-        background-color: $goldenYellow;
-    }
-    a:nth-child(12) {
-        background-color: $darkMustard;
-    }
-    a:nth-child(13) {
-        background-color: $darkGreen;
-    }
-    a:nth-child(14) {
-        background-color: $blue;
-    }
-    a:nth-child(15) {
-        background-color: $limeGreen;
-    }
-    a:nth-child(16) {
-        background-color: $indigo;
-    }
-    a:nth-child(17) {
-        background-color: $navyBlue;
-    }
-
-    a {
-        color: white;
-        text-decoration: none;
-    }
-
-    article{
-        position: relative;
-        min-width: 300px;
-        min-height: 300px;
-        
-
-        h2, p {
-            margin: 1em 0 0.5em 1em;
-        }
-
-        h2 {
-            font-family: "Rubik", "sans-serif";
-        }
-        
-        .container {
+    
+    figure{
+        height: 40vh;
+        .container{
             display: flex;
-            justify-content: center; 
-
-            img {
-                position: absolute;
+            justify-content: center;
+            height: 60%;
+            svg{
                 width: 40%;
-                bottom: 50;
+                fill: white;
             }
         }
+        h2{
+            margin: 1em;
+            font-size: 1.2em;
+            color: white;
+        }
     }
-    
-    
+    ul {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
 }
